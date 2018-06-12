@@ -1,13 +1,12 @@
-#Simple Avito Parser Ads by url AND monitoring
+# Simple Avito Parser Ads by url AND monitoring
 
 Require **phpQuery.php**
 
-##Usage
+## Usage
 
 	require 'phpQuery.php';
 	require 'requests.php';
 	require 'avitoAd.php';
-
 
 	$ad = new AvitoAd($URL);
 
